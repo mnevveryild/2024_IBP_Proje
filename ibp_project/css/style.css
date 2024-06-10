@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'sans-serif', serif;
+    margin: 0;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+    background-color: #5e7300;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #ffffff;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:  #ffffff;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color:  #ffffff;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#homepage{
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#h3about{
+    font-size: 55px;
+    color: #1b5a36;
+    font-weight: 600;
+}
+
+#h4about{
+    font-size: 55px;
+    color: #e4ff89;
+    font-weight: 600;
+}
+
+#h3yeni{
+    font-size: 55px;
+    color: #dbea7a;;
+    font-weight: 600;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#left{
+    float: left;
+    border-right: 3px solid #00b640b7;
+    font-size: 30px;
+    width: 400px;
+    color:  #00b640b7;
+}
+
+#h5left{
+    line-height: 1.6;
+    font-size: 23px;
+    font-weight: 600; 
+}
+
+#h5left, #right{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #dbea7a;
+    font-weight: 600;
+    float: left;
+}
+
+#right{
+    float: right;
+    width: 750px;
+    color: #a6806ab7;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+#plast{
+    color: #a6806ab7;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 100px;
+}
+
+#products{
+    background-color:  #5e7300;
+    padding: 50px;
+    text-align: center;
+    text-transform: unset;
+    font-weight: 600;
+}   
+
+.card{
+    width: 320px;
+    height: 370px;
+    border: 1px solid #004c04;
+    padding: 0;
+    display: inline-block;
+}
+
+.titlecard{
+    font-size: 20px;
+    color:  #1b5a36;
+}
+.titlepembe{
+    font-size: 20px;
+    color:#dbea7a;
+}
+
+.pcard{
+    color: #1b5a36;
+}
+
+.ppembe{
+    color: #dbea7a;
+}
+
+.card:hover{
+    border: 2px solid #564237b7;
+}
+
+#set{
+    background-color: #f8efeb;
+    padding: 50px;
+    text-align: center;
+    text-transform: unset;
+    font-weight: 600;
+} 
+
+.cardp{
+    color: #1b5a36;
+}
+
+#contact{
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    background-color:#e9f98e;
+}
+
+#contactopac{
+    background: #effab1;
+    padding: 40px 200px;
+    border-radius: 70px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#leftform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#rightform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control{
+     width: 100%;
+     padding: 10px;
+     font-size: 15px;
+     line-height: 1.5;
+     color: rgb(243, 172, 226);
+     background-color: rgb(255, 255, 255);
+     margin: 10px;
+     border-radius: 5px;
+     border: 1px solid rgb(215, 201, 201);
+}
+
+textarea{
+    font-family: Arial;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: rgb(129, 185, 60);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: rgb(0, 59, 12);
+    border: 2px solid rgb(0, 59, 12);
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+#copyright{
+    color: rgba(0, 0, 0, 0.301);
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+

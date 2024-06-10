@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#frm {
+    border: solid #a2ac37 1px;
+    width: 40%;
+    border-radius: 100px;
+    background: #8daa61;
+    padding: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#btn {
+    color: #000;
+    background: #d8ebb7;
+    padding: 7px;
+}
